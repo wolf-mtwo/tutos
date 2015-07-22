@@ -3,7 +3,7 @@
 ## clonar un repositorio
 
 1. abril el repositirio
-![Alt text](/clonar/clonar/images/1.png?raw=true "Optional Title")
+![Alt text](/clonar/images/1.png?raw=true "Optional Title")
 
 
 2. copiar la url de repositorio
@@ -29,3 +29,8 @@ git clone https://github.com/ronaldlunaramos/pathfinder-shekinah.git
 
 7. verifica que haya compretado la descarga de los archivos.
 ![Alt text](/clonar/images/7.png?raw=true "Optional Title")
+
+8. abrir el archivo clonado el un editor de texto
+![Alt text](/clonar/images/8.png?raw=true "Optional Title")
+
+9. **empezar a trabajar!!!**
