@@ -7,7 +7,7 @@
 * crear la base de datos **events**
 * ejecutar el siguiente SQL Script:
 
-![Alt text](/wolf-mtwo/tutos/images/1.jpg?raw=true "Optional Title")
+![Alt text](/wolf-mtwo/tutos/blob/master/images/1.png?raw=true "Optional Title")
 
 ```
 git clone <repositorio>
