@@ -1,21 +1,20 @@
 # Añadir un commit a un repositorio existente
 
-Nota: ejecutar los siguientes des pues de clonar y hace cambios
-
-NOTE: hacer el paso por seguridad
+NOTA: ejecutar los siguientes pasos despues de clonar y hace cambios
+NOTA: hacer el paso por seguridad
 ```sh
-$ git pull origin master
+# si sale que hay conflictor hay que hacer las correciones manualmente
+git pull origin master
 ```
-**si sale que hay conflictor hay que hacer las correciones manualmente**
 
-1. verificar si hay cambios en el repo
+**verificar si hay cambios en el repo**
 ```sh
 cd <project root>
-$ git status
+# si hay archivos en rojo; significa que existe cambios
+git status
 ```
-note: si hay archivos en rojo; significa que existe cambios
 
-2. Añadir archivos para el commit
+**Añadir archivos para el commit**
 ```sh
 # cualquier tipo de archivos
 $ git add .
@@ -23,19 +22,20 @@ $ git add .
 $ git add -A .
 ```
 
-3. Verificar los archivos que tienes que subir
+**verificar los archivos que tienes que subir**
 ```sh
+# los archivos modificados tienen que estar de color verde
 $ git status
 ```
-> **note:** los archivos modificados tienen que estar de color verde
 
-4. hacer el commit con un mensage que describa que se realizo durante el commit
+**hacer el commit con un mensage que describa que se realizo durante el commit**
 ```sh
 $ git commit -am "<message>"
 ```
 
-5. subir al repositorio
+**subir al repositorio**
 ```sh
 $ git push origin master
 ```
+
 **note:** te pedira las credenciales de github
